@@ -11,5 +11,275 @@
 	<!-- end trung -->*/
 	/*<!-- linh -->
 	<!-- end linh -->*/
-	/*<!-- quan -->
+	/*<!-- quan --!>*/
+
+	.container .resent{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.resent .business{
+	float: left;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid grey;
+}
+.business p{
+	display: block;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 2px solid green;
+}
+.resent .list{
+	float: left;
+	width: 100%;
+	height: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.list .image{
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin-right: 5%;
+	overflow: hidden;
+}
+.image img{
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+}
+.image img:hover{
+	transform: scale(1.2);
+}
+.list .info{
+	position: relative;
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+.info p{
+	margin: 0;
+	padding-right: 20%;
+}
+.star{
+	position: absolute;
+	width: 250px;
+	height: 50px;
+	top: 0px;
+	left: 47%;
+}
+.star p{
+	float: right;
+}
+.info a{
+	position: absolute;
+	top: 0px;
+	right: 5%;
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+	background: grey;
+	color: white;
+}
+.info a.f1{
+	background: #12b794;
+}
+.info a:hover{
+	background: yellow;
+	color: red;
+}
+.container .footer{
+	float: left;
+	margin-top: 30px;
+	width: 100%;
+	height: 270px;
+	background: grey;
+}
+.footer .first{
+	width: 80%;
+	height: 85%;
+	margin-left: 10%;
+}
+.footer .box{
+	float: left;
+	width: 24%;
+	height: 100%;
+}
+.footer .diff{
+	margin-left: 1.3%;
+}
+.box p{
+	color: white;
+}
+.box h5{
+	padding-top: 20px;
+	color: white;
+}
+.box a{
+	color: white;
+	line-height: 35px;
+	font-size: 15px;
+}
+.box a:hover{
+	color: red;
+}
+.footer .diff .row .col{
+	background: #42cef4;
+}
+.diff .avt{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: green;
+	overflow: hidden;
+}
+.avt img{
+	width: 100%;
+	height: 100%;
+	transition:  all 0.3s ease-in-out;
+}
+.avt img:hover{
+	transform: scale(1.2);
+}
+.footer .last{
+	float: left;
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid white;
+}
+.last .design{
+	float: left;
+	width: 50%;
+	height: 100%;
+	margin-left: 10%;
+}
+.design p{
+	margin: 0;
+	line-height: 40px;
+}
+.box div[class ^="col"]{
+	background: #12b794;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.footer .diff a{
+	text-decoration: none;
+	text-align: center;
+}
+.last .manu{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+.manu ul{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.manu ul li{
+	margin: 0;
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+	line-height: 40px;
+}
+.manu ul li a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.manu ul li a:hover{
+	color: white;
+}
+
+@media screen and (max-width: 576px){
+	.container .list{
+		height: auto;
+	}
+	.container .list .image{
+		width: 40%;
+	}
+	.container .list .info p.p1{
+		display: none;
+	}
+	.container .list .info{
+		width: 50%;
+	}
+	.container .list .info a{
+		right: 10px;
+		top: 160px;
+	}
+	.container .list .star{
+		display: none;
+	}
+	.container .footer{
+		height: auto;
+	}
+	.container .footer .box{
+		width: 80%;
+		height: auto;
+	}
+	.container .footer .diff .avt{
+		width: 25%;
+		height: 100px;
+	}
+	.footer .last{
+		height: auto;
+	}
+	.footer .last .design{
+		width: 100%;
+		font-size: 15px;
+	}
+	.footer .last .manu{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.container .list{
+		height: 200px;
+	}
+	.container .list .image{
+		height: 90px;
+	}
+	.container .lish .info{
+		width: 40%;
+	}
+	.container .list .info .star{
+		top: 200px;
+		left: 80px;
+	}
+	.container .list .info a{
+		top: 200px;
+	}
+	.container .footer{
+		height: auto;
+	}
+	.footer .box{
+		width: 35%;
+		margin-right: 20px; 
+	}
+	.footer .diff{
+		margin-left: 0px;
+		margin-right: 50px;
+	}
+	.footer .row .
+	.footer .diff .avt{
+		width: 40px;
+	}
+	.footer .last .design{
+		width: 100%;
+	}
+	.footer .last .manu{
+		display: none;
+	}
+}
 	<!-- end quan -->*/
